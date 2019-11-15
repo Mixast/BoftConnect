@@ -1,0 +1,16 @@
+PODS:
+  - DelaunaySwift (0.1.2)
+
+DEPENDENCIES:
+  - DelaunaySwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DelaunaySwift
+
+SPEC CHECKSUMS:
+  DelaunaySwift: ef38c11ba100670bc7405e87e08465ac9a64d0ca
+
+PODFILE CHECKSUM: aa145d6037a2849140893b23acfe29ced4863beb
+
+COCOAPODS: 1.7.0.beta.1

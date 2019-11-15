@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		351ECA1AE7E4963604BEA9AD5C261CEC /* DelaunaySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF15EF2DC8512B7932AEEFB2B5603980 /* DelaunaySwift-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		67B873F7F7E09A5FF0750B3A167375EA /* Circumcircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D707016E422652D47DFF6DCB11B49DA4 /* Circumcircle.swift */; };
+		8736EBF40CB28856492156450B304441 /* Pods-BoftConnect-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDF214C2B2417D0CD36CD2D8FB34FB7F /* Pods-BoftConnect-dummy.m */; };
+		9E0F960F3F3C12E4A56F87DE9A1F4284 /* DelaunaySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FED101EE12529E0C77361CB22FBCCF95 /* DelaunaySwift-dummy.m */; };
+		B1C8758070E67E2EC1502BF098164B53 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9FF7ABFF107F5F56115B73C0E707D8 /* Triangle.swift */; };
+		B5053489C26B5EB33CC2B490772359D5 /* Pods-BoftConnect-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 99C57CD0EF279F1A15C23B88ED2965FD /* Pods-BoftConnect-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B7AC21B6F55D34FC1BF7BC7D8FB44EFD /* DelaunaySwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = C43E43BB2754E6B158172E33615A0B19 /* DelaunaySwift.swift */; };
+		D7BD4BEB234DFA3C0000595B /* Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD4BEA234DFA3C0000595B /* Hash.swift */; };
+		D7BD4BEE234DFB0D0000595B /* CGRect+Scaled.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7BD4BED234DFB0D0000595B /* CGRect+Scaled.swift */; };
+		F84DC6F89411C78E3395788AE7F5E048 /* Edge.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D9B6B5BDC770543AEB95B668FD97B3 /* Edge.swift */; };
+		F84E71FF1896F0F19A636D09924B6684 /* Vertex.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0E228B47CDCC1C075E491208F961629 /* Vertex.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		343DC0678B72AB45E03A9821D062DAED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1ED9D149634B4C7FBD75783D281D23D;
+			remoteInfo = DelaunaySwift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0839A48F9316D542EAFE24CFEE1AA5CE /* libDelaunaySwift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libDelaunaySwift.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C3652D6ED2F596FA3BFE4874299BBF7 /* Pods-BoftConnect.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoftConnect.release.xcconfig"; sourceTree = "<group>"; };
+		3156C142C96970B6FB5500A4C2FCA21D /* DelaunaySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DelaunaySwift.modulemap; sourceTree = "<group>"; };
+		8A9FF7ABFF107F5F56115B73C0E707D8 /* Triangle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Triangle.swift; path = ../DelaunayTriangulationSwift/Triangle.swift; sourceTree = "<group>"; };
+		99C57CD0EF279F1A15C23B88ED2965FD /* Pods-BoftConnect-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoftConnect-umbrella.h"; sourceTree = "<group>"; };
+		9D270FB6CF5ACF68907B4C57B6D395F8 /* DelaunaySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DelaunaySwift-prefix.pch"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B1D307E0007CD4F77F7A530247E4DEC9 /* Pods-BoftConnect.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-BoftConnect.modulemap"; sourceTree = "<group>"; };
+		BDF214C2B2417D0CD36CD2D8FB34FB7F /* Pods-BoftConnect-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BoftConnect-dummy.m"; sourceTree = "<group>"; };
+		C3BEDB3866CB55D271CC93964A23AE6A /* Pods-BoftConnect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoftConnect.debug.xcconfig"; sourceTree = "<group>"; };
+		C43E43BB2754E6B158172E33615A0B19 /* DelaunaySwift.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DelaunaySwift.swift; path = DelaunayTriangulationSwift/DelaunaySwift.swift; sourceTree = "<group>"; };
+		C514EB8525F5FFD3B67FF2D2DDF5FB05 /* DelaunaySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DelaunaySwift.xcconfig; sourceTree = "<group>"; };
+		C9D9B6B5BDC770543AEB95B668FD97B3 /* Edge.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Edge.swift; path = ../DelaunayTriangulationSwift/Edge.swift; sourceTree = "<group>"; };
+		D6CDA309E3C28F0E08F9B689120DA12B /* Pods-BoftConnect-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BoftConnect-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D707016E422652D47DFF6DCB11B49DA4 /* Circumcircle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Circumcircle.swift; path = ../DelaunayTriangulationSwift/Circumcircle.swift; sourceTree = "<group>"; };
+		D7085ED637C932EFF55BA6DAF14E219D /* Pods-BoftConnect-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoftConnect-acknowledgements.plist"; sourceTree = "<group>"; };
+		D7BD4BEA234DFA3C0000595B /* Hash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hash.swift; sourceTree = "<group>"; };
+		D7BD4BED234DFB0D0000595B /* CGRect+Scaled.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGRect+Scaled.swift"; sourceTree = "<group>"; };
+		EE43F36A36FBF19E4665ED2B4A4D4E14 /* libPods-BoftConnect.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BoftConnect.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0E228B47CDCC1C075E491208F961629 /* Vertex.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Vertex.swift; path = ../DelaunayTriangulationSwift/Vertex.swift; sourceTree = "<group>"; };
+		FED101EE12529E0C77361CB22FBCCF95 /* DelaunaySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DelaunaySwift-dummy.m"; sourceTree = "<group>"; };
+		FF15EF2DC8512B7932AEEFB2B5603980 /* DelaunaySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DelaunaySwift-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27F72E32A623B20E95FCF655F709F744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81750BB61E8AF159EF79DDA0421CEF55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		23467D6EDC00523C7986C540F0C6BB0B /* Pods-BoftConnect */ = {
+			isa = PBXGroup;
+			children = (
+				B1D307E0007CD4F77F7A530247E4DEC9 /* Pods-BoftConnect.modulemap */,
+				D6CDA309E3C28F0E08F9B689120DA12B /* Pods-BoftConnect-acknowledgements.markdown */,
+				D7085ED637C932EFF55BA6DAF14E219D /* Pods-BoftConnect-acknowledgements.plist */,
+				BDF214C2B2417D0CD36CD2D8FB34FB7F /* Pods-BoftConnect-dummy.m */,
+				99C57CD0EF279F1A15C23B88ED2965FD /* Pods-BoftConnect-umbrella.h */,
+				C3BEDB3866CB55D271CC93964A23AE6A /* Pods-BoftConnect.debug.xcconfig */,
+				1C3652D6ED2F596FA3BFE4874299BBF7 /* Pods-BoftConnect.release.xcconfig */,
+			);
+			name = "Pods-BoftConnect";
+			path = "Target Support Files/Pods-BoftConnect";
+			sourceTree = "<group>";
+		};
+		53AA44A7977477C9160CE2CA81A02AC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0839A48F9316D542EAFE24CFEE1AA5CE /* libDelaunaySwift.a */,
+				EE43F36A36FBF19E4665ED2B4A4D4E14 /* libPods-BoftConnect.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D6B3E09E3BC13036B4C33C030BDD296 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23467D6EDC00523C7986C540F0C6BB0B /* Pods-BoftConnect */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		65364F283BC121FD54A2A26B851AA2EF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDE38CDEE274D3B9A520F3FD45445D6A /* DelaunaySwift */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				65364F283BC121FD54A2A26B851AA2EF /* Pods */,
+				53AA44A7977477C9160CE2CA81A02AC3 /* Products */,
+				5D6B3E09E3BC13036B4C33C030BDD296 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D7BD4BEC234DFAF10000595B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD4BED234DFB0D0000595B /* CGRect+Scaled.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D7BD4BEF234DFB300000595B /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				D707016E422652D47DFF6DCB11B49DA4 /* Circumcircle.swift */,
+				C9D9B6B5BDC770543AEB95B668FD97B3 /* Edge.swift */,
+				D7BD4BEA234DFA3C0000595B /* Hash.swift */,
+				8A9FF7ABFF107F5F56115B73C0E707D8 /* Triangle.swift */,
+				F0E228B47CDCC1C075E491208F961629 /* Vertex.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDE38CDEE274D3B9A520F3FD45445D6A /* DelaunaySwift */ = {
+			isa = PBXGroup;
+			children = (
+				C43E43BB2754E6B158172E33615A0B19 /* DelaunaySwift.swift */,
+				D7BD4BEC234DFAF10000595B /* Extensions */,
+				D7BD4BEF234DFB300000595B /* Structs */,
+				DEB30415D6AA89889784690E505A1734 /* Support Files */,
+			);
+			path = DelaunaySwift;
+			sourceTree = "<group>";
+		};
+		DEB30415D6AA89889784690E505A1734 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3156C142C96970B6FB5500A4C2FCA21D /* DelaunaySwift.modulemap */,
+				C514EB8525F5FFD3B67FF2D2DDF5FB05 /* DelaunaySwift.xcconfig */,
+				FED101EE12529E0C77361CB22FBCCF95 /* DelaunaySwift-dummy.m */,
+				9D270FB6CF5ACF68907B4C57B6D395F8 /* DelaunaySwift-prefix.pch */,
+				FF15EF2DC8512B7932AEEFB2B5603980 /* DelaunaySwift-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DelaunaySwift";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		007E4E8B4FC2A4E6160F4AD66D17E5D9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5053489C26B5EB33CC2B490772359D5 /* Pods-BoftConnect-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0E10052EE76286777D2FB242D29AB3DB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				351ECA1AE7E4963604BEA9AD5C261CEC /* DelaunaySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		331C7B04DE00586356CC5BEB3EC0782A /* Pods-BoftConnect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F27E96FDB72E7D8C0DE1E8CD94E81DE /* Build configuration list for PBXNativeTarget "Pods-BoftConnect" */;
+			buildPhases = (
+				007E4E8B4FC2A4E6160F4AD66D17E5D9 /* Headers */,
+				859CD53B81B9047DF343CE9C9FE35CA8 /* Sources */,
+				81750BB61E8AF159EF79DDA0421CEF55 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F531276333BDF05F0D55E1A6738E7F40 /* PBXTargetDependency */,
+			);
+			name = "Pods-BoftConnect";
+			productName = "Pods-BoftConnect";
+			productReference = EE43F36A36FBF19E4665ED2B4A4D4E14 /* libPods-BoftConnect.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		E1ED9D149634B4C7FBD75783D281D23D /* DelaunaySwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D8C03FC82F54289385F42FB6F06D7708 /* Build configuration list for PBXNativeTarget "DelaunaySwift" */;
+			buildPhases = (
+				0E10052EE76286777D2FB242D29AB3DB /* Headers */,
+				FD729BCF9460AD3D4C7367D70F656AE9 /* Sources */,
+				27F72E32A623B20E95FCF655F709F744 /* Frameworks */,
+				6754C88BC1B0CB9E563CB62BBE2028A7 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DelaunaySwift;
+			productName = DelaunaySwift;
+			productReference = 0839A48F9316D542EAFE24CFEE1AA5CE /* libDelaunaySwift.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 53AA44A7977477C9160CE2CA81A02AC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1ED9D149634B4C7FBD75783D281D23D /* DelaunaySwift */,
+				331C7B04DE00586356CC5BEB3EC0782A /* Pods-BoftConnect */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6754C88BC1B0CB9E563CB62BBE2028A7 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/DelaunaySwift/DelaunaySwift.modulemap",
+				"${PODS_ROOT}/Headers/Public/DelaunaySwift/DelaunaySwift-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/DelaunaySwift-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DelaunaySwift/DelaunaySwift.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/DelaunaySwift/DelaunaySwift-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		859CD53B81B9047DF343CE9C9FE35CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8736EBF40CB28856492156450B304441 /* Pods-BoftConnect-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD729BCF9460AD3D4C7367D70F656AE9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67B873F7F7E09A5FF0750B3A167375EA /* Circumcircle.swift in Sources */,
+				9E0F960F3F3C12E4A56F87DE9A1F4284 /* DelaunaySwift-dummy.m in Sources */,
+				B7AC21B6F55D34FC1BF7BC7D8FB44EFD /* DelaunaySwift.swift in Sources */,
+				F84DC6F89411C78E3395788AE7F5E048 /* Edge.swift in Sources */,
+				B1C8758070E67E2EC1502BF098164B53 /* Triangle.swift in Sources */,
+				D7BD4BEE234DFB0D0000595B /* CGRect+Scaled.swift in Sources */,
+				F84E71FF1896F0F19A636D09924B6684 /* Vertex.swift in Sources */,
+				D7BD4BEB234DFA3C0000595B /* Hash.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F531276333BDF05F0D55E1A6738E7F40 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DelaunaySwift;
+			target = E1ED9D149634B4C7FBD75783D281D23D /* DelaunaySwift */;
+			targetProxy = 343DC0678B72AB45E03A9821D062DAED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		27ED387198DD322C2960601553540B32 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3BEDB3866CB55D271CC93964A23AE6A /* Pods-BoftConnect.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoftConnect/Pods-BoftConnect.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6476C68B97BAAB5704405B41191EBCE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C3652D6ED2F596FA3BFE4874299BBF7 /* Pods-BoftConnect.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BoftConnect/Pods-BoftConnect.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D4717368BB3D7562441CCB8FDD2884B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C514EB8525F5FFD3B67FF2D2DDF5FB05 /* DelaunaySwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DelaunaySwift/DelaunaySwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/DelaunaySwift/DelaunaySwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DelaunaySwift;
+				PRODUCT_NAME = DelaunaySwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F69E43FB97A60C4D9BB9B97769FF7B65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C514EB8525F5FFD3B67FF2D2DDF5FB05 /* DelaunaySwift.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/DelaunaySwift/DelaunaySwift-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MODULEMAP_FILE = Headers/Public/DelaunaySwift/DelaunaySwift.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = DelaunaySwift;
+				PRODUCT_NAME = DelaunaySwift;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0FE574C7B3479C6425BC136AA57D8C2 /* Debug */,
+				84A06F28E9E7D9EB0A9B476A8668FD60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F27E96FDB72E7D8C0DE1E8CD94E81DE /* Build configuration list for PBXNativeTarget "Pods-BoftConnect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				27ED387198DD322C2960601553540B32 /* Debug */,
+				6476C68B97BAAB5704405B41191EBCE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D8C03FC82F54289385F42FB6F06D7708 /* Build configuration list for PBXNativeTarget "DelaunaySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F69E43FB97A60C4D9BB9B97769FF7B65 /* Debug */,
+				D4717368BB3D7562441CCB8FDD2884B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

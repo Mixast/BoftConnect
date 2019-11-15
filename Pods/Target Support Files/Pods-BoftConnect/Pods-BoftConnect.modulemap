@@ -1,0 +1,6 @@
+module Pods_BoftConnect {
+  umbrella header "Pods-BoftConnect-umbrella.h"
+
+  export *
+  module * { export * }
+}
